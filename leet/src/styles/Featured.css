@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+.container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:10vmax;
+    margin: 0 -5px;
+    /* justify-content: center; */
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.card{
+    width:5px;
+    height:auto;
+    border-radius: 5px;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+.heading{
+    text-align: center;
+    
+}
